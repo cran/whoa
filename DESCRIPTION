@@ -1,7 +1,7 @@
 Package: whoa
 Type: Package
 Title: Evaluation of Genotyping Error in Genotype-by-Sequencing Data
-Version: 0.0.1
+Version: 0.0.2
 Authors@R: c(
     person(given = c("Eric", "C."), family = "Anderson", email = "eric.anderson@noaa.gov", role = c("aut", "cre"))
   )
@@ -14,11 +14,11 @@ Depends: R (>= 3.3.0)
 Imports: dplyr, magrittr, tibble, tidyr, Rcpp (>= 0.12.16), vcfR,
         viridis, ggplot2
 LinkingTo: Rcpp
-RoxygenNote: 6.1.1
+RoxygenNote: 7.1.1
 Suggests: knitr, rmarkdown
 VignetteBuilder: knitr
 NeedsCompilation: yes
-Packaged: 2019-08-02 00:16:07 UTC; eriq
+Packaged: 2021-08-09 22:58:14 UTC; eriq
 Author: Eric C. Anderson [aut, cre]
 Repository: CRAN
-Date/Publication: 2019-08-02 11:20:02 UTC
+Date/Publication: 2021-08-11 06:10:02 UTC
